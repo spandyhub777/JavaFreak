@@ -44,21 +44,8 @@ public class FlightServiceImpl implements FlightService{
                 		myList = jsonObject1;
                 		System.out.println("iterator element : "+jsonObject1.entrySet());
                 	}
-//                	Map.Entry<Object, Object> pair = it.next();
-//                	String name = null;
-//                    if(pair.getKey().equals("name")){
-//                        name = (String) pair.getValue();
-//                    }
                 }
             }
-//            if(flightList.contains(numberFl))
-//            	return flightList.indexOf(numberFl);
-//            for (int i = 0; i < flightList.size(); ++i) {
-//            	
-//                JSONObject jsn = flightList.getJSONObject(i);
-//
-//               String keyVal = jsn.getString("numberFl");
-//            }
              
            
         } catch (FileNotFoundException e) {
